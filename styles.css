@@ -28,18 +28,16 @@ div.post img {
     width: 100%;
 }
 
-div.post .title div:first-child{
+div.post .title .titleleft{
     display: inline-block;
     width: 80%;
-    background-color: blue;
 }
 
-div.post .title div:last-child {
+div.post .title .titleright {
     display: inline-block;
     width: 20%;
     text-align: right;
     padding: 10px;
-    background-color: red;
 }
 
 div.post h2, div.post p {
