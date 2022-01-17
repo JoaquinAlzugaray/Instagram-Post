@@ -1,5 +1,5 @@
 body {
-    background-color: whitesmoke;
+    background-color: black;
     margin: 0;
 }
 
@@ -19,7 +19,8 @@ header h1 {
 
 div.post {
     background-color: white;
-    margin-top: 25px;
+    margin-top: 50px;
+    margin-bottom: 50px;
     font-family: 'Roboto', sans-serif;
 }
 
@@ -30,6 +31,7 @@ div.post img {
 div.post .title div:first-child{
     display: inline-block;
     width: 80%;
+    background-color: blue;
 }
 
 div.post .title div:last-child {
@@ -37,7 +39,7 @@ div.post .title div:last-child {
     width: 20%;
     text-align: right;
     padding: 10px;
-    color: gray;
+    background-color: red;
 }
 
 div.post h2, div.post p {
@@ -48,4 +50,12 @@ div.post h2, div.post p {
 div.container {
     width: 600px;
     margin: auto;
+}
+
+div.likeicons {
+    margin: 10px;
+}
+
+div.likeicons .fa-bookmark {
+    float: right;
 }
