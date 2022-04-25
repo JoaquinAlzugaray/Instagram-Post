@@ -57,3 +57,21 @@ div.likeicons {
 div.likeicons .fa-bookmark {
     float: right;
 }
+
+.userName {
+    padding-left: 10px;
+}
+
+.titleleft, .titleright{
+    display: inline-block;
+}
+
+.menuDesplegable{
+    float: right;
+    margin-right: 5px;
+    padding: 10px;
+}
+
+.htIcon{
+    margin-left: 5px;
+}
